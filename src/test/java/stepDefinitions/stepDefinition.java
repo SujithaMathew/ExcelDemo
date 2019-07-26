@@ -16,11 +16,14 @@ public class stepDefinition {
     @Given("^User is a Netbanking login page$")
     public void user_is_a_netbanking_login_page() throws Throwable {
        System.out.println("Navigated to login page");
+       
     }
 
     @When("^User login into application with usename and password$")
     public void user_login_into_application_with_usename_and_password() throws Throwable {
     	System.out.println("Login");
+    	System.out.println("Login");
+    	
     }
 
     @Then("^Homepage is populated$")
